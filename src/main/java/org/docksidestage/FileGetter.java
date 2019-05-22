@@ -48,7 +48,7 @@ public class FileGetter {
                 }
             });
 
-            //結果出力
+            //結果出力です
             exec.submit(new Runnable() {
                 public void run() {
                     try {
