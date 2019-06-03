@@ -1,0 +1,55 @@
+var express = require('express');
+var router = express.Router();
+
+const { Client } = require('@elastic/elasticsearch')
+//const client = new Client({ node: 'http://localhost:9200' })
+
+
+var elasticsearch = require('elasticsearch');
+var client = new elasticsearch.Client({
+  host: 'localhost:9201'
+  });
+  
+client.ping({
+  requestTimeout: 2000
+}, function (error) {
+  if (error) {
+    console.error('elasticsearch cluster is down');
+  } else {
+    console.log('All ok');
+  }
+});
+
+client.search({
+  index: 'fess_log.search_log',
+  body: {
+    query: {
+      match_all: {}
+    }
+  }
+}).then(function (resp) {
+    console.log(resp.hits.hits);
+}, function (err) {
+    console.log(err.message);
+});
+
+  // promise API
+//   const result = await client.search({
+//     index: 'my-index',
+//     body: { foo: 'bar' }
+//   })
+
+   // callback API
+//   client.search({
+//     index: 'my-index',
+//     body: { foo: 'bar' }
+//   }, (err, result) => {
+//     if (err) console.log(err)
+//   })
+
+/* GET users listing. */
+router.get('/', function(req, res, next) {
+  res.send('respond with a resource');
+});
+
+module.exports = router;
