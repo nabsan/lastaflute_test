@@ -1,0 +1,227 @@
+2019-06-05 00:42:10,264 [main] INFO  ...Reading     crawler/sitemaps.xml
+2019-06-05 00:42:10,268 [main] INFO  ...Reading       crawler/container.xml (recycle)
+2019-06-05 00:42:10,271 [main] INFO  ...Reading     crawler/es.xml
+2019-06-05 00:42:10,311 [main] INFO  ...Reading     crawler_es+crawlerThread.xml
+2019-06-05 00:42:10,347 [main] INFO  ...Reading     crawler_es+crawlerConfig.xml
+2019-06-05 00:42:10,352 [main] INFO  ...Reading   fess_thumbnail.xml
+2019-06-05 00:42:10,590 [main] INFO  [Objective Config]
+2019-06-05 00:42:10,591 [main] INFO   fess_config.properties extends [fess_env_crawler.properties]
+2019-06-05 00:42:10,591 [main] INFO   checkImplicitOverride=true, propertyCount=440
+2019-06-05 00:42:10,661 [main] INFO  [Exception Translator]
+2019-06-05 00:42:10,662 [main] INFO   exceptionTranslationProvider: null
+2019-06-05 00:42:10,664 [main] INFO  [Async Manager]
+2019-06-05 00:42:10,664 [main] INFO   defaultConcurrentAsyncOption: {no option}
+2019-06-05 00:42:10,664 [main] INFO   primaryExecutorService: ThreadPoolExecutor@36074e47
+2019-06-05 00:42:10,665 [main] INFO   secondaryExecutorService: ThreadPoolExecutor@36453307
+2019-06-05 00:42:10,665 [main] INFO   tertiaryExecutorService: ThreadPoolExecutor@7dcc91fd
+2019-06-05 00:42:10,665 [main] INFO  [Primary Cipher]
+2019-06-05 00:42:10,665 [main] INFO   invertibleCryptographer: {AES, UTF-8}
+2019-06-05 00:42:10,665 [main] INFO   oneWayCryptographer: {SHA-256, UTF-8}
+2019-06-05 00:42:10,670 [main] INFO  [Time Manager]
+2019-06-05 00:42:10,671 [main] INFO   businessTimeHandler: TypicalBusinessTimeHandler:{TypicalTimeResourceProvider$$Lambda$42/1444494461, TypicalTimeResourceProvider$$Lambda$43/2141066548}
+2019-06-05 00:42:10,671 [main] INFO   currentIgnoreTransaction: false
+2019-06-05 00:42:10,671 [main] INFO   adjustTimeMillis: 0
+2019-06-05 00:42:10,671 [main] INFO   adjustAbsoluteMode: false
+2019-06-05 00:42:10,731 [main] INFO  [JSON Manager]
+2019-06-05 00:42:10,731 [main] INFO   realJsonParser: GsonJsonEngine
+2019-06-05 00:42:10,731 [main] INFO   adjustment: nullsSuppressed
+2019-06-05 00:42:10,734 [main] INFO   option: {CAMEL_TO_LOWER_SNAKE}
+2019-06-05 00:42:10,735 [main] INFO  [Postbox]
+2019-06-05 00:42:10,735 [main] INFO   postOffice: PostOffice@bcb09a6
+2019-06-05 00:42:10,735 [main] INFO   postalParkingLot: SMailPostalParkingLot:{{category:{main}=motorbike:{session=javax.mail.Session@7c2a69b4}}}@a619c2
+2019-06-05 00:42:10,736 [main] INFO   postalPersonnel: FessMailDeliveryDepartmentCreator$1:{SMailConventionReceptionist:{[]}@648ee871, batch:{[proofreader:{pmcomment}]}}@375b5b7f
+2019-06-05 00:42:11,117 [main] INFO  no modules loaded
+2019-06-05 00:42:11,118 [main] INFO  loaded plugin [org.elasticsearch.index.reindex.ReindexPlugin]
+2019-06-05 00:42:11,118 [main] INFO  loaded plugin [org.elasticsearch.join.ParentJoinPlugin]
+2019-06-05 00:42:11,118 [main] INFO  loaded plugin [org.elasticsearch.percolator.PercolatorPlugin]
+2019-06-05 00:42:11,118 [main] INFO  loaded plugin [org.elasticsearch.script.mustache.MustachePlugin]
+2019-06-05 00:42:11,118 [main] INFO  loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+2019-06-05 00:42:14,671 [main] INFO  Lasta Di boot successfully.
+2019-06-05 00:42:14,675 [main] INFO    SmartDeploy Mode: Warm Deploy
+2019-06-05 00:42:14,675 [main] INFO    Smart Package: org.codelibs.fess.app
+2019-06-05 00:42:14,788 [main] INFO  Starting Crawler..
+2019-06-05 00:42:14,869 [WebFsCrawler] INFO  no modules loaded
+2019-06-05 00:42:14,869 [WebFsCrawler] INFO  loaded plugin [org.elasticsearch.index.reindex.ReindexPlugin]
+2019-06-05 00:42:14,870 [WebFsCrawler] INFO  loaded plugin [org.elasticsearch.join.ParentJoinPlugin]
+2019-06-05 00:42:14,870 [WebFsCrawler] INFO  loaded plugin [org.elasticsearch.percolator.PercolatorPlugin]
+2019-06-05 00:42:14,870 [WebFsCrawler] INFO  loaded plugin [org.elasticsearch.script.mustache.MustachePlugin]
+2019-06-05 00:42:14,870 [WebFsCrawler] INFO  loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+2019-06-05 00:42:14,913 [WebFsCrawler] INFO  Connected to localhost:9301
+2019-06-05 00:42:15,049 [WebFsCrawler] INFO  Target URL: http://localhost/index.cgi
+2019-06-05 00:42:15,050 [WebFsCrawler] INFO  Included URL: http://localhost/index.cgi*
+2019-06-05 00:42:15,050 [WebFsCrawler] INFO  Included URL: http://localhost/*
+2019-06-05 00:42:15,050 [WebFsCrawler] INFO  [POINT A]
+2019-06-05 00:42:15,063 [WebFsCrawler] INFO  [POINT B]
+2019-06-05 00:42:15,184 [Crawler-RFB2E2sBA23NzYXeYT1d-1-1] INFO  Crawling URL: http://localhost/index.cgi
+2019-06-05 00:42:15,288 [Crawler-RFB2E2sBA23NzYXeYT1d-1-1] INFO  Checking URL: http://localhost/robots.txt
+2019-06-05 00:42:16,064 [WebFsCrawler] INFO  [POINT C]
+2019-06-05 00:42:16,064 [WebFsCrawler] INFO  [POINT C] clsize=1
+2019-06-05 00:42:16,064 [WebFsCrawler] INFO  [POINT C-1] i=0
+2019-06-05 00:42:16,090 [IndexUpdater] INFO  Processing 0/1 docs (Doc:{access 15ms}, Mem:{used 153MB, heap 247MB, max 494MB})
+2019-06-05 00:42:17,066 [WebFsCrawler] INFO  [POINT C-2] i=0
+2019-06-05 00:42:17,066 [WebFsCrawler] INFO  [POINT C-3] status=RUNNING
+2019-06-05 00:42:17,066 [WebFsCrawler] INFO  [POINT C-99]
+2019-06-05 00:42:17,066 [WebFsCrawler] INFO  [POINT C-1] i=0
+2019-06-05 00:42:18,067 [WebFsCrawler] INFO  [POINT C-2] i=0
+2019-06-05 00:42:18,068 [WebFsCrawler] INFO  [POINT C-3] status=RUNNING
+2019-06-05 00:42:18,068 [WebFsCrawler] INFO  [POINT C-99]
+2019-06-05 00:42:18,068 [WebFsCrawler] INFO  [POINT C-1] i=0
+2019-06-05 00:42:19,072 [WebFsCrawler] INFO  [POINT C-2] i=0
+2019-06-05 00:42:19,072 [WebFsCrawler] INFO  [POINT C-3] status=RUNNING
+2019-06-05 00:42:19,072 [WebFsCrawler] INFO  [POINT C-99]
+2019-06-05 00:42:19,072 [WebFsCrawler] INFO  [POINT C-1] i=0
+2019-06-05 00:42:19,103 [IndexUpdater] INFO  Processing 1/1 docs (Doc:{access 11ms}, Mem:{used 156MB, heap 247MB, max 494MB})
+2019-06-05 00:42:19,180 [IndexUpdater] INFO  Processing no docs (Doc:{access 6ms, cleanup 22ms}, Mem:{used 158MB, heap 247MB, max 494MB})
+2019-06-05 00:42:19,302 [IndexUpdater] INFO  Sent 1 docs (Doc:{process 48ms, send 122ms, size 633bytes}, Mem:{used 162MB, heap 247MB, max 494MB})
+2019-06-05 00:42:19,307 [IndexUpdater] INFO  Processing no docs (Doc:{access 5ms, cleanup 22ms}, Mem:{used 162MB, heap 247MB, max 494MB})
+2019-06-05 00:42:20,073 [WebFsCrawler] INFO  [POINT C-2] i=0
+2019-06-05 00:42:20,074 [WebFsCrawler] INFO  [POINT C-3] status=RUNNING
+2019-06-05 00:42:20,074 [WebFsCrawler] INFO  [POINT C-99]
+2019-06-05 00:42:20,074 [WebFsCrawler] INFO  [POINT C-1] i=0
+2019-06-05 00:42:20,308 [IndexUpdater] INFO  Processing no docs (Doc:{access 6ms, cleanup 22ms}, Mem:{used 164MB, heap 247MB, max 494MB})
+2019-06-05 00:42:21,077 [WebFsCrawler] INFO  [POINT C-2] i=0
+2019-06-05 00:42:21,077 [WebFsCrawler] INFO  [POINT C-3] status=RUNNING
+2019-06-05 00:42:21,077 [WebFsCrawler] INFO  [POINT C-99]
+2019-06-05 00:42:21,077 [WebFsCrawler] INFO  [POINT C-1] i=0
+2019-06-05 00:42:21,310 [IndexUpdater] INFO  Processing no docs (Doc:{access 4ms, cleanup 22ms}, Mem:{used 164MB, heap 247MB, max 494MB})
+2019-06-05 00:42:22,078 [WebFsCrawler] INFO  [POINT C-2] i=0
+2019-06-05 00:42:22,078 [WebFsCrawler] INFO  [POINT C-3] status=RUNNING
+2019-06-05 00:42:22,079 [WebFsCrawler] INFO  [POINT C-99]
+2019-06-05 00:42:22,079 [WebFsCrawler] INFO  [POINT C-1] i=0
+2019-06-05 00:42:22,312 [IndexUpdater] INFO  Processing no docs (Doc:{access 5ms, cleanup 22ms}, Mem:{used 164MB, heap 247MB, max 494MB})
+2019-06-05 00:42:23,080 [WebFsCrawler] INFO  [POINT C-2] i=0
+2019-06-05 00:42:23,080 [WebFsCrawler] INFO  [POINT C-3] status=RUNNING
+2019-06-05 00:42:23,080 [WebFsCrawler] INFO  [POINT C-99]
+2019-06-05 00:42:23,080 [WebFsCrawler] INFO  [POINT C-1] i=0
+2019-06-05 00:42:23,318 [IndexUpdater] INFO  Processing no docs (Doc:{access 8ms, cleanup 22ms}, Mem:{used 164MB, heap 247MB, max 494MB})
+2019-06-05 00:42:24,081 [WebFsCrawler] INFO  [POINT C-2] i=0
+2019-06-05 00:42:24,082 [WebFsCrawler] INFO  [POINT C-3] status=RUNNING
+2019-06-05 00:42:24,082 [WebFsCrawler] INFO  [POINT C-99]
+2019-06-05 00:42:24,082 [WebFsCrawler] INFO  [POINT C-1] i=0
+2019-06-05 00:42:24,319 [IndexUpdater] INFO  Processing no docs (Doc:{access 7ms, cleanup 22ms}, Mem:{used 164MB, heap 247MB, max 494MB})
+2019-06-05 00:42:25,083 [WebFsCrawler] INFO  [POINT C-2] i=0
+2019-06-05 00:42:25,083 [WebFsCrawler] INFO  [POINT C-3] status=RUNNING
+2019-06-05 00:42:25,083 [WebFsCrawler] INFO  [POINT C-99]
+2019-06-05 00:42:25,083 [WebFsCrawler] INFO  [POINT C-1] i=0
+2019-06-05 00:42:25,319 [IndexUpdater] INFO  Processing no docs (Doc:{access 7ms, cleanup 22ms}, Mem:{used 165MB, heap 247MB, max 494MB})
+2019-06-05 00:42:26,084 [WebFsCrawler] INFO  [POINT C-2] i=0
+2019-06-05 00:42:26,084 [WebFsCrawler] INFO  [POINT C-3] status=RUNNING
+2019-06-05 00:42:26,084 [WebFsCrawler] INFO  [POINT C-99]
+2019-06-05 00:42:26,085 [WebFsCrawler] INFO  [POINT C-1] i=0
+2019-06-05 00:42:26,317 [IndexUpdater] INFO  Processing no docs (Doc:{access 5ms, cleanup 22ms}, Mem:{used 165MB, heap 247MB, max 494MB})
+2019-06-05 00:42:27,085 [WebFsCrawler] INFO  [POINT C-2] i=0
+2019-06-05 00:42:27,085 [WebFsCrawler] INFO  [POINT C-3] status=RUNNING
+2019-06-05 00:42:27,085 [WebFsCrawler] INFO  [POINT C-99]
+2019-06-05 00:42:27,085 [WebFsCrawler] INFO  [POINT C-1] i=0
+2019-06-05 00:42:27,321 [IndexUpdater] INFO  Processing no docs (Doc:{access 6ms, cleanup 22ms}, Mem:{used 165MB, heap 247MB, max 494MB})
+2019-06-05 00:42:28,087 [WebFsCrawler] INFO  [POINT C-2] i=0
+2019-06-05 00:42:28,087 [WebFsCrawler] INFO  [POINT C-3] status=RUNNING
+2019-06-05 00:42:28,087 [WebFsCrawler] INFO  [POINT C-99]
+2019-06-05 00:42:28,087 [WebFsCrawler] INFO  [POINT C-1] i=0
+2019-06-05 00:42:28,325 [IndexUpdater] INFO  Processing no docs (Doc:{access 4ms, cleanup 22ms}, Mem:{used 165MB, heap 247MB, max 494MB})
+2019-06-05 00:42:29,089 [WebFsCrawler] INFO  [POINT C-2] i=0
+2019-06-05 00:42:29,090 [WebFsCrawler] INFO  [POINT C-3] status=RUNNING
+2019-06-05 00:42:29,090 [WebFsCrawler] INFO  [POINT C-99]
+2019-06-05 00:42:29,090 [WebFsCrawler] INFO  [POINT C-1] i=0
+2019-06-05 00:42:29,326 [IndexUpdater] INFO  Processing no docs (Doc:{access 4ms, cleanup 22ms}, Mem:{used 165MB, heap 247MB, max 494MB})
+2019-06-05 00:42:30,091 [WebFsCrawler] INFO  [POINT C-2] i=0
+2019-06-05 00:42:30,091 [WebFsCrawler] INFO  [POINT C-3] status=RUNNING
+2019-06-05 00:42:30,091 [WebFsCrawler] INFO  [POINT C-99]
+2019-06-05 00:42:30,092 [WebFsCrawler] INFO  [POINT C-1] i=0
+2019-06-05 00:42:30,330 [IndexUpdater] INFO  Processing no docs (Doc:{access 6ms, cleanup 22ms}, Mem:{used 165MB, heap 247MB, max 494MB})
+2019-06-05 00:42:31,092 [WebFsCrawler] INFO  [POINT C-2] i=0
+2019-06-05 00:42:31,093 [WebFsCrawler] INFO  [POINT C-3] status=RUNNING
+2019-06-05 00:42:31,093 [WebFsCrawler] INFO  [POINT C-99]
+2019-06-05 00:42:31,093 [WebFsCrawler] INFO  [POINT C-1] i=0
+2019-06-05 00:42:31,333 [IndexUpdater] INFO  Processing no docs (Doc:{access 4ms, cleanup 22ms}, Mem:{used 165MB, heap 247MB, max 494MB})
+2019-06-05 00:42:32,094 [WebFsCrawler] INFO  [POINT C-2] i=0
+2019-06-05 00:42:32,094 [WebFsCrawler] INFO  [POINT C-3] status=RUNNING
+2019-06-05 00:42:32,094 [WebFsCrawler] INFO  [POINT C-99]
+2019-06-05 00:42:32,095 [WebFsCrawler] INFO  [POINT C-1] i=0
+2019-06-05 00:42:32,334 [IndexUpdater] INFO  Processing no docs (Doc:{access 6ms, cleanup 22ms}, Mem:{used 165MB, heap 247MB, max 494MB})
+2019-06-05 00:42:33,095 [WebFsCrawler] INFO  [POINT C-2] i=0
+2019-06-05 00:42:33,095 [WebFsCrawler] INFO  [POINT C-3] status=RUNNING
+2019-06-05 00:42:33,095 [WebFsCrawler] INFO  [POINT C-99]
+2019-06-05 00:42:33,095 [WebFsCrawler] INFO  [POINT C-1] i=0
+2019-06-05 00:42:33,337 [IndexUpdater] INFO  Processing no docs (Doc:{access 5ms, cleanup 22ms}, Mem:{used 165MB, heap 247MB, max 494MB})
+2019-06-05 00:42:34,095 [WebFsCrawler] INFO  [POINT C-2] i=0
+2019-06-05 00:42:34,096 [WebFsCrawler] INFO  [POINT C-3] status=RUNNING
+2019-06-05 00:42:34,096 [WebFsCrawler] INFO  [POINT C-99]
+2019-06-05 00:42:34,096 [WebFsCrawler] INFO  [POINT C-1] i=0
+2019-06-05 00:42:34,337 [IndexUpdater] INFO  Processing no docs (Doc:{access 4ms, cleanup 22ms}, Mem:{used 165MB, heap 247MB, max 494MB})
+2019-06-05 00:42:35,096 [WebFsCrawler] INFO  [POINT C-2] i=0
+2019-06-05 00:42:35,096 [WebFsCrawler] INFO  [POINT C-3] status=RUNNING
+2019-06-05 00:42:35,096 [WebFsCrawler] INFO  [POINT C-99]
+2019-06-05 00:42:35,097 [WebFsCrawler] INFO  [POINT C-1] i=0
+2019-06-05 00:42:35,341 [IndexUpdater] INFO  Processing no docs (Doc:{access 4ms, cleanup 22ms}, Mem:{used 165MB, heap 247MB, max 494MB})
+2019-06-05 00:42:36,101 [WebFsCrawler] INFO  [POINT C-2] i=0
+2019-06-05 00:42:36,101 [WebFsCrawler] INFO  [POINT C-3] status=RUNNING
+2019-06-05 00:42:36,101 [WebFsCrawler] INFO  [POINT C-99]
+2019-06-05 00:42:36,101 [WebFsCrawler] INFO  [POINT C-1] i=0
+2019-06-05 00:42:36,346 [IndexUpdater] INFO  Processing no docs (Doc:{access 4ms, cleanup 22ms}, Mem:{used 165MB, heap 247MB, max 494MB})
+2019-06-05 00:42:37,102 [WebFsCrawler] INFO  [POINT C-2] i=0
+2019-06-05 00:42:37,102 [WebFsCrawler] INFO  [POINT C-3] status=RUNNING
+2019-06-05 00:42:37,103 [WebFsCrawler] INFO  [POINT C-99]
+2019-06-05 00:42:37,103 [WebFsCrawler] INFO  [POINT C-1] i=0
+2019-06-05 00:42:37,349 [IndexUpdater] INFO  Processing no docs (Doc:{access 4ms, cleanup 22ms}, Mem:{used 165MB, heap 247MB, max 494MB})
+2019-06-05 00:42:38,107 [WebFsCrawler] INFO  [POINT C-2] i=0
+2019-06-05 00:42:38,108 [WebFsCrawler] INFO  [POINT C-3] status=RUNNING
+2019-06-05 00:42:38,108 [WebFsCrawler] INFO  [POINT C-99]
+2019-06-05 00:42:38,108 [WebFsCrawler] INFO  [POINT C-1] i=0
+2019-06-05 00:42:38,352 [IndexUpdater] INFO  Processing no docs (Doc:{access 6ms, cleanup 22ms}, Mem:{used 165MB, heap 247MB, max 494MB})
+2019-06-05 00:42:39,112 [WebFsCrawler] INFO  [POINT C-2] i=0
+2019-06-05 00:42:39,112 [WebFsCrawler] INFO  [POINT C-3] status=RUNNING
+2019-06-05 00:42:39,112 [WebFsCrawler] INFO  [POINT C-99]
+2019-06-05 00:42:39,112 [WebFsCrawler] INFO  [POINT C-1] i=0
+2019-06-05 00:42:39,350 [IndexUpdater] INFO  Processing no docs (Doc:{access 4ms, cleanup 22ms}, Mem:{used 165MB, heap 247MB, max 494MB})
+2019-06-05 00:42:40,113 [WebFsCrawler] INFO  [POINT C-2] i=0
+2019-06-05 00:42:40,113 [WebFsCrawler] INFO  [POINT C-3] status=RUNNING
+2019-06-05 00:42:40,113 [WebFsCrawler] INFO  [POINT C-99]
+2019-06-05 00:42:40,114 [WebFsCrawler] INFO  [POINT C-1] i=0
+2019-06-05 00:42:40,351 [IndexUpdater] INFO  Processing no docs (Doc:{access 4ms, cleanup 22ms}, Mem:{used 165MB, heap 247MB, max 494MB})
+2019-06-05 00:42:41,118 [WebFsCrawler] INFO  [POINT C-2] i=0
+2019-06-05 00:42:41,118 [WebFsCrawler] INFO  [POINT C-3] status=RUNNING
+2019-06-05 00:42:41,119 [WebFsCrawler] INFO  [POINT C-99]
+2019-06-05 00:42:41,119 [WebFsCrawler] INFO  [POINT C-1] i=0
+2019-06-05 00:42:41,350 [IndexUpdater] INFO  Processing no docs (Doc:{access 4ms, cleanup 22ms}, Mem:{used 165MB, heap 247MB, max 494MB})
+2019-06-05 00:42:42,119 [WebFsCrawler] INFO  [POINT C-2] i=0
+2019-06-05 00:42:42,119 [WebFsCrawler] INFO  [POINT C-3] status=RUNNING
+2019-06-05 00:42:42,119 [WebFsCrawler] INFO  [POINT C-99]
+2019-06-05 00:42:42,119 [WebFsCrawler] INFO  [POINT C-1] i=0
+2019-06-05 00:42:42,353 [IndexUpdater] INFO  Processing no docs (Doc:{access 7ms, cleanup 22ms}, Mem:{used 165MB, heap 247MB, max 494MB})
+2019-06-05 00:42:43,123 [WebFsCrawler] INFO  [POINT C-2] i=0
+2019-06-05 00:42:43,123 [WebFsCrawler] INFO  [POINT C-3] status=RUNNING
+2019-06-05 00:42:43,123 [WebFsCrawler] INFO  [POINT C-99]
+2019-06-05 00:42:43,123 [WebFsCrawler] INFO  [POINT C-1] i=0
+2019-06-05 00:42:43,354 [IndexUpdater] INFO  Processing no docs (Doc:{access 7ms, cleanup 22ms}, Mem:{used 165MB, heap 247MB, max 494MB})
+2019-06-05 00:42:44,124 [WebFsCrawler] INFO  [POINT C-2] i=0
+2019-06-05 00:42:44,124 [WebFsCrawler] INFO  [POINT C-3] status=RUNNING
+2019-06-05 00:42:44,124 [WebFsCrawler] INFO  [POINT C-99]
+2019-06-05 00:42:44,124 [WebFsCrawler] INFO  [POINT C-1] i=0
+2019-06-05 00:42:44,358 [IndexUpdater] INFO  Processing no docs (Doc:{access 6ms, cleanup 22ms}, Mem:{used 165MB, heap 247MB, max 494MB})
+2019-06-05 00:42:45,129 [WebFsCrawler] INFO  [POINT C-2] i=0
+2019-06-05 00:42:45,129 [WebFsCrawler] INFO  [POINT C-3] status=RUNNING
+2019-06-05 00:42:45,129 [WebFsCrawler] INFO  [POINT C-99]
+2019-06-05 00:42:45,129 [WebFsCrawler] INFO  [POINT C-1] i=0
+2019-06-05 00:42:45,357 [IndexUpdater] INFO  Processing no docs (Doc:{access 3ms, cleanup 22ms}, Mem:{used 165MB, heap 247MB, max 494MB})
+2019-06-05 00:42:46,130 [WebFsCrawler] INFO  [POINT C-2] i=0
+2019-06-05 00:42:46,131 [WebFsCrawler] INFO  [POINT C-3] status=RUNNING
+2019-06-05 00:42:46,131 [WebFsCrawler] INFO  [POINT C-99]
+2019-06-05 00:42:46,131 [WebFsCrawler] INFO  [POINT C-1] i=0
+2019-06-05 00:42:46,361 [IndexUpdater] INFO  Processing no docs (Doc:{access 4ms, cleanup 22ms}, Mem:{used 165MB, heap 247MB, max 494MB})
+2019-06-05 00:42:46,960 [WebFsCrawler] INFO  [POINT C-2] i=0
+2019-06-05 00:42:46,960 [WebFsCrawler] INFO  [POINT C-3] status=DONE
+2019-06-05 00:42:46,961 [WebFsCrawler] INFO  [POINT C-4] finished sid=RFB2E2sBA23NzYXeYT1d-1,i=0
+2019-06-05 00:42:46,961 [WebFsCrawler] INFO  [POINT D]
+2019-06-05 00:42:46,961 [WebFsCrawler] INFO  [EXEC TIME] crawling time: 32109ms
+2019-06-05 00:42:47,370 [IndexUpdater] INFO  Processing no docs (Doc:{access 9ms, cleanup 22ms}, Mem:{used 165MB, heap 247MB, max 494MB})
+2019-06-05 00:42:47,370 [IndexUpdater] INFO  [EXEC TIME] index update time: 3408ms
+2019-06-05 00:42:47,504 [main] INFO  Finished Crawler
+2019-06-05 00:42:47,639 [main] INFO  [CRAWL INFO] CrawlerEndTime=2019-06-05T00:42:47.504+0900,WebFsCrawlExecTime=32109,CrawlerStatus=true,CrawlerStartTime=2019-06-05T00:42:14.788+0900,WebFsCrawlEndTime=2019-06-05T00:42:47.504+0900,WebFsIndexExecTime=3408,WebFsIndexSize=1,CrawlerExecTime=32717,WebFsCrawlStartTime=2019-06-05T00:42:14.827+0900
+2019-06-05 00:42:48,664 [main] INFO  Disconnected to elasticsearch:localhost:9301
+2019-06-05 00:42:49,664 [main] INFO  Destroyed LaContainer.
+
+＊Constants.javaのDEFAULT_CRAWLING_EXECUTION_INTERVAL変数を5sec(default)→１secに変えてるから、
+ 1sec１回Statusを確認している。このクロール例では、RUNNING →DONEになるまで30secぐらいかかってるので、5sec(default)でも別によさげ。と感じた。
+2019-06-05 00:42:44,124 [WebFsCrawler] INFO  [POINT C-2] i=0での
+2019-06-05 00:42:44,124 [WebFsCrawler] INFO  [POINT C-2] i=0
