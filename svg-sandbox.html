@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>SVG Sandbox</title>
+  <style>
+    body {
+      background: #EEE;
+    }
+    svg {
+      background: #FFF;
+    }
+    line {
+      stroke: #333;
+      stroke-width: 3;
+    }
+    path {
+      stroke: #333;
+      stroke-width: 3;
+      fill: none;
+    }
+    rect {
+      fill: #CCC;
+      stroke: #333;
+    }
+
+    circle{
+      fill: #333;
+      transition: all 0.4s cubic-bezier(.96,.04,.04,.96);
+      stroke: rgb(119, 0, 255);
+      stroke-width: 1px;
+    }
+    .active{
+      fill: white;
+      stroke:pink;
+      stroke-width: 450px;
+    }
+  </style>
+    
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <script src="https://unpkg.com/vue@2.5.9/dist/vue.js"></script>
+</head>
+
+<body >
+  <div id="app">
+    <svg viewbox="0 0 500 400" width="500" height="400">
+      <rect @click='post1' x=100 y=100 width=20 height=20></rect>
+      <circle @click="active = !active" :class="{'active': active}" cx=200 cy=100 r=20></circle>
+      <text x=300 y=100>test</text>
+      <line :x1="x1" y1=200 x2=120 y2=220></line>
+      <path d="M 200,200 C 240,200 210,250 250,250"></path>
+    </svg>
+    <div><input type="range" v-model="x1"></div>
+  
+  
+    <div>
+          <p>URL</p>
+          <input type="text" id="url" v-model="url" value="http://localhost:8080/json?q=a" size="60">
+    </div>
+    <div>
+          <p>PARAM</p>
+          <input type="text" id="param" v-model="param" size="60">
+    </div>
+    <div>
+            <button @click="post1">POST1</button>
+            <button onclick="myMethod1()">POST2</button>
+    </div>
+    <div>
+            <p>RESULT</p>
+            <textarea v-model="result" cols="60" rows="10"></textarea>
+    </div> 
+    <div>
+          {{ info }}
+    </div>
+  </div>    
+
+ 
+  <script>
+    new Vue({
+      el: "#app",
+      data: {
+    	  x1: 10,
+    	  active: false,
+    	  n: 1,
+    	  info: 1,
+    	  url:"http://localhost:8080/json?q=py",
+          param:"{}",
+          result:"................."
+      },
+      mounted() {
+    	  //this.post1();
+      },
+      methods: {
+    	  post1: function(){
+    		     //console.log('a')
+                 //alert('aaaaaaaa')
+                 config = {
+    	                 headers:{
+    	                   'X-Requested-With': 'XMLHttpRequest',
+    	                   'Content-Type':'application / x-www-form-urlencoded'
+    	                 },
+    	                 withCredentials:true,
+    	               }
+    	         //alert('b, url=' + this.url)
+    	         //param = JSON.parse(this.param)
+    	         param = JSON.parse('{"id":1,"id2":2}')
+    	         let params = new URLSearchParams();
+                 params.append('text', 'テストだよー');
+    	         //alert('c')
+    	         this.n=this.n+1
+    	         this.x1=3
+    	         console.log("n="+this.n)
+    	         var vm = this;
+    	         axios.post("http://localhost:8080/json?q=py",params).then(function(res){
+                  //vueにバインドされている値を書き換えると表示に反映される
+                  //Vue.set(app, result,res.config)
+                  vm.result=res.status
+                  //app.info = res.status
+                  console.log(res)
+                  //alert('d')
+                 })
+                 .catch(function(res){
+                   //vueにバインドされている値を書き換えると表示に反映される
+                   //this.result = res.data
+                   //console.log(res)
+                })  
+    		    console.log('end')
+    	  } ,
+      }
+    })
+    function myMethod1(){
+    	        alert('myMethod1')
+    	        alert('a')
+    		    alert('end')
+    	return
+    }
+
+  </script>
+</body>
+
+</html>
